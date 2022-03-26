@@ -200,7 +200,7 @@ function App() {
       <h3>React Axios example</h3>
 
       <div className="card mt-3">
-        <div className="card-header">React Axios GET - BezKoder.com</div>
+        <div className="card-header">React Axios GET </div>
         <div className="card-body">
           <div className="input-group input-group-sm">
             <button className="btn btn-sm btn-primary" onClick={getAllData}>Get All</button>
@@ -223,7 +223,7 @@ function App() {
       </div>
 
       <div className="card mt-3">
-        <div className="card-header">React Axios POST - BezKoder.com</div>
+        <div className="card-header">React Axios POST </div>
         <div className="card-body">
           <div className="form-group">
             <input type="text" className="form-control" ref={post_title} placeholder="Title" />
@@ -239,7 +239,7 @@ function App() {
       </div>
 
       <div className="card mt-3">
-        <div className="card-header">React Axios PUT - BezKoder.com</div>
+        <div className="card-header">React Axios PUT </div>
         <div className="card-body">
           <div className="form-group">
             <input type="text" className="form-control" ref={put_id} placeholder="Id" />
@@ -262,7 +262,7 @@ function App() {
       </div>
 
       <div className="card mt-3">
-        <div className="card-header">React Axios DELETE - BezKoder.com</div>
+        <div className="card-header">React Axios DELETE </div>
         <div className="card-body">
           <div className="input-group input-group-sm">
             <button className="btn btn-sm btn-danger" onClick={deleteAllData}>Delete All</button>
